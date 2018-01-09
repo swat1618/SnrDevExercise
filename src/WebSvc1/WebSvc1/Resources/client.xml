@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <p180:Process xmlns:p180="http://IntelliFlo.com/">
+      <p180:request><?xml version="1.0" encoding="UTF-8"?>
+        <clients>
+          <personal_client id="1007">
+            <external_client_reference>7556356</external_client_reference>
+            <title>Mr</title>
+            <forenames>Test</forenames>
+            <surname>Client</surname>
+            <sex>Male</sex>
+            <date_of_birth>1980-11-10</date_of_birth>
+            <primary_employment_status>Employed</primary_employment_status>
+            <smoker_ind>No</smoker_ind>
+            <occupation_category/>
+            <occupation_class/>
+            <job_title/>
+          </personal_client>
+          <personal_client id="1008">
+            <external_client_reference>7556357</external_client_reference>
+            <title>Lady</title>
+            <forenames>Jane</forenames>
+            <surname>Smith</surname>
+            <sex>Female</sex>
+            <date_of_birth>1970-10-10</date_of_birth>
+            <primary_employment_status>Employed</primary_employment_status>
+            <smoker_ind>No</smoker_ind>
+            <occupation_category/>
+            <occupation_class/>
+            <job_title/>
+          </personal_client>
+        </clients>
+      </p180:request>
+    </p180:Process>
+  </soapenv:Body>
+</soapenv:Envelope>
